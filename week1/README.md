@@ -1,6 +1,7 @@
 # 🃏 PokerJack
 
-Classic Texas Holdem poker, but with additional black jack rules. (instructions to run locally below)
+Classic Texas Holdem poker, but with additional black jack rules. (instructions to run locally at bottom of the page)
+For 2-9 players.
 
 ---
 ## Purpose
@@ -15,20 +16,20 @@ Play standard Texas Hold’em, but after each round of betting, players still in
 
 - Hitting introduces **Blackjack risk** — anyone who busts forfeits after the round ends.  
 - **Standard Poker hand rankings** always determine the winner.  
-- Blackjack totals are used **only for busting and bonus conditions** (see bonus rules for hitting 21).
+- Blackjack totals are used **only for busting and bonus conditions** (see bonus conditions for hitting 21 below).
 
 ---
 
 ## 🔄 Gameplay Overview
 
 ### 1. Deal & Initial Betting
-- Follow standard Texas Hold’em rules: each player receives **two hole cards**.  
+- Follow standard Texas Hold’em rules: each player receives **two cards**.  
 - The **Flop**, **Turn**, and **River** occur with **betting rounds** and a **Blackjack Hit Phase** in between.
 
 ---
 
 ### 2. Hit Phases
-- After each betting round, all players still in the hand may choose to **Hit**.  
+- After each betting round, the blackjack round occurs and all players still in the hand may choose to **Hit**.  
 - **Limits:**  
   - Each player may Hit **up to 3 times per hand**, but **no more than once per betting turn**.  
 - When hitting:  
@@ -58,12 +59,10 @@ Play standard Texas Hold’em, but after each round of betting, players still in
   - The player sees the card, giving them potential information, while others see that a “hit” occurred.  
 - **Usage Limits:**  
   - Once per betting round.  
-  - Discarded after the hand ends.  
+  - Discarded after the hand ends if used.  
 
 **Buying More:**  
-- Every ⌊total_players ÷ 2⌋ rounds, players may buy **one additional Fake Hit Chip** for:  
-
-10% of their remaining chips + 2 big blinds.
+- Every ⌊total_players ÷ 2⌋ rounds, players recieve **one additional Fake Hit Chip**
 
 ### 5. Final Round
 - After the **final betting round and Hit Phase**, remaining players reveal their hands.  
