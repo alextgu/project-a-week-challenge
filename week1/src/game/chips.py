@@ -12,9 +12,9 @@ class Chip:
             self.value = self.BLACK
         elif colour == "GREEN":
             self.value = self.GREEN
-        elif colour == "blue":
+        elif colour == "BLUE":
             self.value = self.BLUE
-        elif colour == "red":
+        elif colour == "RED":
             self.value = self.RED
-        elif colour == "white":
+        elif colour == "WHITE":
             self.value = self.WHITE
