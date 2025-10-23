@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # 🃏 Poker BlackJack (Still thinking of a clever name)
 
 Classic Texas Holdem poker, but with additional black jack rules. For 2-8 players.
@@ -14,7 +12,7 @@ Week 1 of the project a week challenge! I am starting with something with OOP si
 ## 🔄 Gameplay Overview
 
 ### 1. Deal & Initial Betting
-- Follow standard Texas Hold’em rules: each player receives **two cards**.  
+- Follow standard Texas Hold'em rules: each player receives **two cards**.  
 - The **Flop**, **Turn**, and **River** occur with **betting rounds** and a **Blackjack Hit Phase** in between.
 
 ---
@@ -37,7 +35,7 @@ Week 1 of the project a week challenge! I am starting with something with OOP si
 ---
 
 ### 3. Using Hit Cards
-- If a player’s total is ≤ 21, hit cards **can be used** as part of their **best five-card Poker hand** at showdown.  
+- If a player's total is ≤ 21, hit cards **can be used** as part of their **best five-card Poker hand** at showdown.  
 - Hit cards are **personal**, not community cards.  
 - Blackjack totals — unless exactly 21 or a bust — **have no further effect** on gameplay.
 
@@ -47,7 +45,7 @@ Week 1 of the project a week challenge! I am starting with something with OOP si
 - Each player starts with **one Fake Hit Chip**.  
 - Using it:  
   - The dealer gives **one card that cannot contribute** to the hand (no Blackjack or Poker value).  
-  - The player sees the card, giving them potential information, while others see that a “hit” occurred.  
+  - The player sees the card, giving them potential information, while others see that a "hit" occurred.  
 - **Usage Limits:**  
   - Once per betting round.  
   - Discarded after the hand ends if used.  
@@ -88,5 +86,3 @@ Week 1 of the project a week challenge! I am starting with something with OOP si
 ## Images
 
 
-
->>>>>>> bafa7d01fd03756bb984e2ed6006fc180fda9e32
